@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(61, 161, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(2px);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin-top: 20px;
+    background-color: rgba(103, 195, 231, 0.4);
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.login-box {
+    background: linear-gradient(rgba(4, 82, 155, 0.5), rgb(31, 42, 197));
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    margin-top: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 65px;
+    background-color: #ffffff(255, 255, 255, 0.2);
+    color: rgb(0, 0, 0);
+}
+
+.login-box input::placeholder {
+    color: #ddd;
+}
+
+.login-box button {
+    background: #004aad;
+    color: rgb(104, 96, 96);
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 65px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-box button:hover {
+    background: #00337a;
+}
